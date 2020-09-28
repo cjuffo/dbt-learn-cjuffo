@@ -2,7 +2,9 @@ version: 2
 
 models:
   - name: orders
+    description: This model contains total amount per order and customer for a given order date
     columns:
       - name: order_id
+        description: This is the order id for a given order
         tests:
           - not_null
