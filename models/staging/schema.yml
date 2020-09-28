@@ -6,6 +6,7 @@ sources:
       - name: orders
       - name: customers
 
-  - name: raw.stripe
+  - name: stripe
+    database: raw
     tables:
       - name: payment
