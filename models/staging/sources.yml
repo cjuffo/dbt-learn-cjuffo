@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    database: raw
     description: This is the schema for Jaffle Shop Mart
     tables:
       - name: orders
